@@ -269,7 +269,7 @@ NumOfOrders = count (*)
 FROM PRODUCTS as P JOIN DESIGNED_PRODUCTS as D
 ON P.ProductID = D.ProductID JOIN ORDERS as O
 ON D.CartID = O.CartID
-WHERE  month (O.dt) = CASE WHEN @Holiday = 'Christmas' THEN 12
+WHERE Â month (O.dt) = CASE WHEN @Holiday = 'Christmas' THEN 12
 
 WHEN @Holiday = 'Ramadan' THEN 03
 WHEN @Holiday = 'Passover' THEN 04
