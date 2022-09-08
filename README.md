@@ -1,6 +1,10 @@
 # CustomInkDB
+This repository consists two files:
 
-This project was the main project of Databases course I took during my 2nd year.
-I had to analyze and create the DB of an actual website (customink.com) in order to support various business processes using SQL.
-I used several advanced SQL tools such as window fucntions, stored procedures, triggers, nested queries and more.
-In addition I produced different types of operative and management reports using PowerBI.
+# Database.sql
+This SQL file contains the script of:
+* The creation of the database itself.
+* The usage of different types of SQL tools to support business processes of the website. 
+
+# Reports.pbix
+* This file contains two types of reports based of this database.
